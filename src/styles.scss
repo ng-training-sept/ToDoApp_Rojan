@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #020203;
+  color: #ffffff;
+}
+
+.card {
+  background: #161616 !important;
+  margin: 20px;
+  width: 70%;
+}
+
+.card-title {
+  color: #CED4DA;
+  font-size: 1rem !important;
+}
+
+.inline {
+  display: inline !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.centre-xy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem;
+}
+
+.green {
+  color: #037971;
+}
+
+.pink {
+  color: #e31b6d
+}
+
+.red {
+  color: #ec5453;
+}
+
+.coffee {
+  color: #6f1a07;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
